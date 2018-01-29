@@ -4,18 +4,6 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
-  font-weight: 700;
-}
-
-p {
-  font-size: 18px;
-}
-
-u {
-  background-color: gold;
-}
-
 a {
   font-weight: 700;
   padding-left: 5px;
@@ -27,6 +15,34 @@ a:hover {
   background-color: gold;
   color: white;
   text-decoration: none;
+}
+
+a:visited, a:active {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+p {
+  font-size: 18px;
+}
+
+#email {
+  background-color: initial;
+  color: lightslategray;
+}
+
+#email:hover {
+  background-color: gold;
+}
+
+#links-container {
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
 }
 
 .jumbotron {
@@ -45,8 +61,4 @@ a:hover {
   margin-bottom: 0;
 }
 
-.links {
-  position: absolute;
-  bottom: 5%;
-  width: 100%;
-}
+
